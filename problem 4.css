@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.upper {
+    background-color: #FCD34D;
+    overflow: hidden;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upper .text {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 16px 32px;
+}
+
+.upper .nav-items a {
+    float: right;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.upper .nav-items a:hover {
+    background-color: #c5a640;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.copyright p, .copyright a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    opacity: 0.5;
+    padding: 8px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 300px;
+}
+
+.left-part h1{
+    margin: 15px;
+}
+
+.left-part button {
+    margin: 15px;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 35px;
+    font-size: 20px;
+    color: white;
+    background-color: #FCD34D;
+}
+
+.product-img {
+    background-image: url('images/I phone 7.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 30%;
+}
+
+.middle1 {
+    background-color: #FCD34D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+.store-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store-btn button {
+    width: 25%;
+    background-color: black;
+}
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.store-btn button:hover {
+    cursor: pointer;
+}
+.btn i {
+    font-size: 40px;
+}
+
+.google i {
+    color: rgb(98, 217, 233);
+}
+
+.apple i {
+    color: white;
+}
+
+.inside p, .inside h2 {
+    text-align: left;
+    color: white;
+}
+.ad-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.ad-text .ad-p {
+    text-align: center;
+}
+
+.middle2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+
+.middle3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-img {
+    background-image: url('images/iphone plain.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 30%;
+    margin-right: 30px;
+}
+
+.specs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+
+.specs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.specs p {
+    text-align: center;
+}
+
+.specs i {
+    font-size: 30px;
+}
+.row1 {
+    margin-bottom: 30px;
+}
+
+.col1 {
+    margin-right: 30px;
+}
+
+.end {
+    width: 100%;
+    height: 150px;
+    background-color: #FCD34D;
+}
+
+.end h3 {
+    text-align: center;
+}
+.end h1 {
+    margin: 0;
+}
+
+.follow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icn {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 23px;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+}
+
+.twitter {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.facebook {
+    background-color: blue;
+    color: white;
+}
+
+.youtube {
+    background-color: red;
+    color: white;
+}
+
+.icn a{
+    text-decoration: none;
+    color: white;
+}
+
+.follow button:hover {
+    cursor: pointer;
+    background-color: rgb(117, 111, 111);
+}
+
+@media screen and (max-width: 600px) {
+    .upper, .nav-items a{
+        flex-direction: column;
+        width: 100%;
+        align-items: stretch;
+        height: inherit;
+    }
+}
